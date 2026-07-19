@@ -1,0 +1,48 @@
+# PSoC Creator build output
+CortexM0/
+CortexM3/
+CortexM4/
+ARM_GCC/
+Keil/
+IAR/
+Debug/
+Release/
+
+# PSoC Creator generated source
+*.cydsn/codegentemp/
+*.cydsn/Generated_Source/
+
+# Build artifacts
+*.o
+*.d
+*.elf
+*.hex
+*.map
+*.lst
+*.a
+*.lib
+*.cyfit
+*.rpt
+*.log
+*.svd
+
+# PSoC Creator temp files
+*.cydsn/*.cydsn.bak
+*.cyprj.*
+*.cycdx
+*.cywrk.*.user
+*.ui~
+
+# Workspace user files (per-user, don't commit)
+DRV8825.cywrk.Xiaoj
+
+# Claude
+.claude/
+
+# Recovered temp files
+recovered/
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
